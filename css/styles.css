@@ -1,9 +1,9 @@
 @charset "utf-8";
+
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
+
 body {
-    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,1.00) 0%,rgba(65,78,113,1.00) 41.66%,rgba(4,21,67,1.00) 100%);
-    background-image: -moz-linear-gradient(45deg,rgba(255,255,255,1.00) 0%,rgba(65,78,113,1.00) 41.66%,rgba(4,21,67,1.00) 100%);
-    background-image: -o-linear-gradient(45deg,rgba(255,255,255,1.00) 0%,rgba(65,78,113,1.00) 41.66%,rgba(4,21,67,1.00) 100%);
-    background-image: linear-gradient(45deg,rgba(255,255,255,1.00) 0%,rgba(65,78,113,1.00) 41.66%,rgba(4,21,67,1.00) 100%)
+	background-image: url("../images/blue background.jpg");
 }
 
 h1 {
@@ -17,10 +17,15 @@ h1 {
 	border-bottom: medium solid white;
 }
 
+nav {
+	text-align: center; 
+}
+
 .link a {
     font-family: 'wire-one';
     color: white;
     background: #D8CF0D;
+	border: 2px solid white;
     border-radius: 5px;
     padding: 4px;
     margin: 10px 30px;
@@ -53,7 +58,7 @@ h1 {
 }
 
 .quote {
-    font-family: "wire-one";
+    font-family: 'Permanent Marker', cursive;
 	font-size: 36px;
 	font-style: italic;
 	color: white;
@@ -61,15 +66,20 @@ h1 {
     text-align: center;
     display: inline;
     float: right;
-	margin: 55px 50px ;
+	margin: 55px 50px;
+	padding: 0px 20px;
 	border-left: medium solid #D8CF0D;
 	border-right: medium solid #D8CF0D;
+}
+
+.text {
+	margin: auto;
 }
 
 P {
     font-family: 'wire-one';
     margin: 30px 20px;
-    text-align: center;
+    text-align: inherit;
     font-weight: bold;
     font-style: normal;
     font-size: x-large;
@@ -79,10 +89,7 @@ P {
     padding: 5px;
     border-radius: 10px;
     background-color: #D8CF0D;	
-	margin: 10px;
 }
 
-nav {
-	text-align: center;
-}
+
 
