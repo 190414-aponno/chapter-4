@@ -21,6 +21,14 @@ nav {
 	text-align: center; 
 }
 
+.header {
+    font-family: "wire-one";
+    font-size: 95px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;	
+}
+
 .link a {
     font-family: 'wire-one';
     color: white;
@@ -89,6 +97,15 @@ P {
     padding: 5px;
     border-radius: 10px;
     background-color: #D8CF0D;	
+}
+
+.footer {
+	font-family: "wire-one";
+	font-size: 20px;
+	text-align: end;
+	color: white;
+	margin-right: 20px;
+	
 }
 
 
